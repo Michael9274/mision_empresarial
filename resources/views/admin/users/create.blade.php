@@ -2,7 +2,7 @@
 
 @section('content-admin')
 
-    <div class="animated fadeIn">
+    <div class="animated fadeIn mt-5">
         <div class="card">
             <div class="card-header bg-light">
                 <h2>Crear usuarios</h2>
