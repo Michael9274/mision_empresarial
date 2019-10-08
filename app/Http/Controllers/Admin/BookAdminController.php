@@ -40,7 +40,7 @@ class BookAdminController extends Controller
 
         if ($request->file('image')){
             $image = $request->file('image')->storeAs(
-                'public/books', $request->title.'.jpg'
+                'public/books', str_replace(' ', '',$request->title).'.jpg'
             );
             $data['image'] = $image;
         }

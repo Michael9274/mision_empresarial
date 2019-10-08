@@ -73,7 +73,10 @@
                     id: 'createBookModal',
                     size: 'modal-lg',
                     classHeader: 'bg-light text-dark',
-                    header: 'Crear libro',
+                    header: `
+                        <h2>Crear libro</h2>
+                        <small>Diligencie todos los campos</small>
+                    `,
                     content: `
                         @include('admin.books.create')
                     `,
